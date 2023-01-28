@@ -1,0 +1,958 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C579D242985828500F42477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D232985828500F42477 /* AppDelegate.swift */; };
+		9C579D262985828500F42477 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D252985828500F42477 /* SceneDelegate.swift */; };
+		9C579D292985828500F42477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D272985828500F42477 /* LaunchScreen.storyboard */; };
+		9C579D2C2985828500F42477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D2A2985828500F42477 /* Main.storyboard */; };
+		9C579D352985828500F42477 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D342985828500F42477 /* AppDelegate.swift */; };
+		9C579D382985828500F42477 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D362985828500F42477 /* Main.storyboard */; };
+		9C579D3F2985828500F42477 /* ikea-infinite-scroll Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C579D3E2985828500F42477 /* ikea-infinite-scroll Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C579D492985828500F42477 /* ikea-infinite-scroll Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C579D482985828500F42477 /* ikea-infinite-scroll Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C579D4F2985828500F42477 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0A2985828400F42477 /* Main.html */; };
+		9C579D502985828500F42477 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0A2985828400F42477 /* Main.html */; };
+		9C579D512985828500F42477 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0C2985828400F42477 /* Icon.png */; };
+		9C579D522985828500F42477 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0C2985828400F42477 /* Icon.png */; };
+		9C579D532985828500F42477 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0D2985828400F42477 /* Style.css */; };
+		9C579D542985828500F42477 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0D2985828400F42477 /* Style.css */; };
+		9C579D552985828500F42477 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0E2985828400F42477 /* Script.js */; };
+		9C579D562985828500F42477 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D0E2985828400F42477 /* Script.js */; };
+		9C579D572985828500F42477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D0F2985828400F42477 /* ViewController.swift */; };
+		9C579D582985828500F42477 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D0F2985828400F42477 /* ViewController.swift */; };
+		9C579D592985828500F42477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D102985828500F42477 /* Assets.xcassets */; };
+		9C579D5A2985828500F42477 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D102985828500F42477 /* Assets.xcassets */; };
+		9C579D5B2985828500F42477 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D122985828500F42477 /* SafariWebExtensionHandler.swift */; };
+		9C579D5C2985828500F42477 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C579D122985828500F42477 /* SafariWebExtensionHandler.swift */; };
+		9C579D5D2985828500F42477 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D142985828500F42477 /* _locales */; };
+		9C579D5E2985828500F42477 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D142985828500F42477 /* _locales */; };
+		9C579D5F2985828500F42477 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D152985828500F42477 /* images */; };
+		9C579D602985828500F42477 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D152985828500F42477 /* images */; };
+		9C579D612985828500F42477 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D162985828500F42477 /* manifest.json */; };
+		9C579D622985828500F42477 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D162985828500F42477 /* manifest.json */; };
+		9C579D632985828500F42477 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D172985828500F42477 /* background.js */; };
+		9C579D642985828500F42477 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D172985828500F42477 /* background.js */; };
+		9C579D652985828500F42477 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D182985828500F42477 /* content.js */; };
+		9C579D662985828500F42477 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D182985828500F42477 /* content.js */; };
+		9C579D672985828500F42477 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D192985828500F42477 /* popup.html */; };
+		9C579D682985828500F42477 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D192985828500F42477 /* popup.html */; };
+		9C579D692985828500F42477 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D1A2985828500F42477 /* popup.css */; };
+		9C579D6A2985828500F42477 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D1A2985828500F42477 /* popup.css */; };
+		9C579D6B2985828500F42477 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D1B2985828500F42477 /* popup.js */; };
+		9C579D6C2985828500F42477 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C579D1B2985828500F42477 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C579D402985828500F42477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C579D042985828400F42477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C579D3D2985828500F42477;
+			remoteInfo = "ikea-infinite-scroll Extension (iOS)";
+		};
+		9C579D4A2985828500F42477 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C579D042985828400F42477 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C579D472985828500F42477;
+			remoteInfo = "ikea-infinite-scroll Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C579D722985828500F42477 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C579D3F2985828500F42477 /* ikea-infinite-scroll Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D792985828500F42477 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9C579D492985828500F42477 /* ikea-infinite-scroll Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C579D0B2985828400F42477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9C579D0C2985828400F42477 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9C579D0D2985828400F42477 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9C579D0E2985828400F42477 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9C579D0F2985828400F42477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C579D102985828500F42477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C579D122985828500F42477 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9C579D142985828500F42477 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9C579D152985828500F42477 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		9C579D162985828500F42477 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9C579D172985828500F42477 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9C579D182985828500F42477 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		9C579D192985828500F42477 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		9C579D1A2985828500F42477 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		9C579D1B2985828500F42477 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		9C579D202985828500F42477 /* ikea-infinite-scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ikea-infinite-scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C579D232985828500F42477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C579D252985828500F42477 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9C579D282985828500F42477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C579D2B2985828500F42477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C579D2D2985828500F42477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C579D322985828500F42477 /* ikea-infinite-scroll.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ikea-infinite-scroll.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C579D342985828500F42477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C579D372985828500F42477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C579D392985828500F42477 /* ikea-infinite-scroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ikea-infinite-scroll.entitlements"; sourceTree = "<group>"; };
+		9C579D3E2985828500F42477 /* ikea-infinite-scroll Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ikea-infinite-scroll Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C579D432985828500F42477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C579D482985828500F42477 /* ikea-infinite-scroll Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ikea-infinite-scroll Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C579D4D2985828500F42477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C579D4E2985828500F42477 /* ikea-infinite-scroll.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "ikea-infinite-scroll.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C579D1D2985828500F42477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D2F2985828500F42477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D3B2985828500F42477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D452985828500F42477 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C579D032985828400F42477 = {
+			isa = PBXGroup;
+			children = (
+				9C579D082985828400F42477 /* Shared (App) */,
+				9C579D112985828500F42477 /* Shared (Extension) */,
+				9C579D222985828500F42477 /* iOS (App) */,
+				9C579D332985828500F42477 /* macOS (App) */,
+				9C579D422985828500F42477 /* iOS (Extension) */,
+				9C579D4C2985828500F42477 /* macOS (Extension) */,
+				9C579D212985828500F42477 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C579D082985828400F42477 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D0F2985828400F42477 /* ViewController.swift */,
+				9C579D102985828500F42477 /* Assets.xcassets */,
+				9C579D092985828400F42477 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		9C579D092985828400F42477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D0A2985828400F42477 /* Main.html */,
+				9C579D0C2985828400F42477 /* Icon.png */,
+				9C579D0D2985828400F42477 /* Style.css */,
+				9C579D0E2985828400F42477 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C579D112985828500F42477 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D122985828500F42477 /* SafariWebExtensionHandler.swift */,
+				9C579D132985828500F42477 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		9C579D132985828500F42477 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D142985828500F42477 /* _locales */,
+				9C579D152985828500F42477 /* images */,
+				9C579D162985828500F42477 /* manifest.json */,
+				9C579D172985828500F42477 /* background.js */,
+				9C579D182985828500F42477 /* content.js */,
+				9C579D192985828500F42477 /* popup.html */,
+				9C579D1A2985828500F42477 /* popup.css */,
+				9C579D1B2985828500F42477 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9C579D212985828500F42477 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D202985828500F42477 /* ikea-infinite-scroll.app */,
+				9C579D322985828500F42477 /* ikea-infinite-scroll.app */,
+				9C579D3E2985828500F42477 /* ikea-infinite-scroll Extension.appex */,
+				9C579D482985828500F42477 /* ikea-infinite-scroll Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C579D222985828500F42477 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D232985828500F42477 /* AppDelegate.swift */,
+				9C579D252985828500F42477 /* SceneDelegate.swift */,
+				9C579D272985828500F42477 /* LaunchScreen.storyboard */,
+				9C579D2A2985828500F42477 /* Main.storyboard */,
+				9C579D2D2985828500F42477 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		9C579D332985828500F42477 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D342985828500F42477 /* AppDelegate.swift */,
+				9C579D362985828500F42477 /* Main.storyboard */,
+				9C579D392985828500F42477 /* ikea-infinite-scroll.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		9C579D422985828500F42477 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D432985828500F42477 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		9C579D4C2985828500F42477 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				9C579D4D2985828500F42477 /* Info.plist */,
+				9C579D4E2985828500F42477 /* ikea-infinite-scroll.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C579D1F2985828500F42477 /* ikea-infinite-scroll (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C579D732985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll (iOS)" */;
+			buildPhases = (
+				9C579D1C2985828500F42477 /* Sources */,
+				9C579D1D2985828500F42477 /* Frameworks */,
+				9C579D1E2985828500F42477 /* Resources */,
+				9C579D722985828500F42477 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C579D412985828500F42477 /* PBXTargetDependency */,
+			);
+			name = "ikea-infinite-scroll (iOS)";
+			productName = "ikea-infinite-scroll (iOS)";
+			productReference = 9C579D202985828500F42477 /* ikea-infinite-scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C579D312985828500F42477 /* ikea-infinite-scroll (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C579D7A2985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll (macOS)" */;
+			buildPhases = (
+				9C579D2E2985828500F42477 /* Sources */,
+				9C579D2F2985828500F42477 /* Frameworks */,
+				9C579D302985828500F42477 /* Resources */,
+				9C579D792985828500F42477 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C579D4B2985828500F42477 /* PBXTargetDependency */,
+			);
+			name = "ikea-infinite-scroll (macOS)";
+			productName = "ikea-infinite-scroll (macOS)";
+			productReference = 9C579D322985828500F42477 /* ikea-infinite-scroll.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C579D3D2985828500F42477 /* ikea-infinite-scroll Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C579D6F2985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll Extension (iOS)" */;
+			buildPhases = (
+				9C579D3A2985828500F42477 /* Sources */,
+				9C579D3B2985828500F42477 /* Frameworks */,
+				9C579D3C2985828500F42477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ikea-infinite-scroll Extension (iOS)";
+			productName = "ikea-infinite-scroll Extension (iOS)";
+			productReference = 9C579D3E2985828500F42477 /* ikea-infinite-scroll Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		9C579D472985828500F42477 /* ikea-infinite-scroll Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C579D762985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll Extension (macOS)" */;
+			buildPhases = (
+				9C579D442985828500F42477 /* Sources */,
+				9C579D452985828500F42477 /* Frameworks */,
+				9C579D462985828500F42477 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ikea-infinite-scroll Extension (macOS)";
+			productName = "ikea-infinite-scroll Extension (macOS)";
+			productReference = 9C579D482985828500F42477 /* ikea-infinite-scroll Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C579D042985828400F42477 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9C579D1F2985828500F42477 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9C579D312985828500F42477 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9C579D3D2985828500F42477 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					9C579D472985828500F42477 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9C579D072985828400F42477 /* Build configuration list for PBXProject "ikea-infinite-scroll" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C579D032985828400F42477;
+			productRefGroup = 9C579D212985828500F42477 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C579D1F2985828500F42477 /* ikea-infinite-scroll (iOS) */,
+				9C579D312985828500F42477 /* ikea-infinite-scroll (macOS) */,
+				9C579D3D2985828500F42477 /* ikea-infinite-scroll Extension (iOS) */,
+				9C579D472985828500F42477 /* ikea-infinite-scroll Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C579D1E2985828500F42477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D512985828500F42477 /* Icon.png in Resources */,
+				9C579D292985828500F42477 /* LaunchScreen.storyboard in Resources */,
+				9C579D4F2985828500F42477 /* Main.html in Resources */,
+				9C579D552985828500F42477 /* Script.js in Resources */,
+				9C579D592985828500F42477 /* Assets.xcassets in Resources */,
+				9C579D2C2985828500F42477 /* Main.storyboard in Resources */,
+				9C579D532985828500F42477 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D302985828500F42477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D522985828500F42477 /* Icon.png in Resources */,
+				9C579D542985828500F42477 /* Style.css in Resources */,
+				9C579D382985828500F42477 /* Main.storyboard in Resources */,
+				9C579D562985828500F42477 /* Script.js in Resources */,
+				9C579D5A2985828500F42477 /* Assets.xcassets in Resources */,
+				9C579D502985828500F42477 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D3C2985828500F42477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D632985828500F42477 /* background.js in Resources */,
+				9C579D692985828500F42477 /* popup.css in Resources */,
+				9C579D672985828500F42477 /* popup.html in Resources */,
+				9C579D5F2985828500F42477 /* images in Resources */,
+				9C579D612985828500F42477 /* manifest.json in Resources */,
+				9C579D5D2985828500F42477 /* _locales in Resources */,
+				9C579D652985828500F42477 /* content.js in Resources */,
+				9C579D6B2985828500F42477 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D462985828500F42477 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D642985828500F42477 /* background.js in Resources */,
+				9C579D6A2985828500F42477 /* popup.css in Resources */,
+				9C579D682985828500F42477 /* popup.html in Resources */,
+				9C579D602985828500F42477 /* images in Resources */,
+				9C579D622985828500F42477 /* manifest.json in Resources */,
+				9C579D5E2985828500F42477 /* _locales in Resources */,
+				9C579D662985828500F42477 /* content.js in Resources */,
+				9C579D6C2985828500F42477 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C579D1C2985828500F42477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D572985828500F42477 /* ViewController.swift in Sources */,
+				9C579D242985828500F42477 /* AppDelegate.swift in Sources */,
+				9C579D262985828500F42477 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D2E2985828500F42477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D582985828500F42477 /* ViewController.swift in Sources */,
+				9C579D352985828500F42477 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D3A2985828500F42477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D5B2985828500F42477 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C579D442985828500F42477 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C579D5C2985828500F42477 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C579D412985828500F42477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C579D3D2985828500F42477 /* ikea-infinite-scroll Extension (iOS) */;
+			targetProxy = 9C579D402985828500F42477 /* PBXContainerItemProxy */;
+		};
+		9C579D4B2985828500F42477 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C579D472985828500F42477 /* ikea-infinite-scroll Extension (macOS) */;
+			targetProxy = 9C579D4A2985828500F42477 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C579D0A2985828400F42477 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C579D0B2985828400F42477 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		9C579D272985828500F42477 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C579D282985828500F42477 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9C579D2A2985828500F42477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C579D2B2985828500F42477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C579D362985828500F42477 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C579D372985828500F42477 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C579D6D2985828500F42477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C579D6E2985828500F42477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9C579D702985828500F42477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll.Extension";
+				PRODUCT_NAME = "ikea-infinite-scroll Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C579D712985828500F42477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll.Extension";
+				PRODUCT_NAME = "ikea-infinite-scroll Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C579D742985828500F42477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll";
+				PRODUCT_NAME = "ikea-infinite-scroll";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9C579D752985828500F42477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll";
+				PRODUCT_NAME = "ikea-infinite-scroll";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C579D772985828500F42477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ikea-infinite-scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll.Extension";
+				PRODUCT_NAME = "ikea-infinite-scroll Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C579D782985828500F42477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/ikea-infinite-scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll.Extension";
+				PRODUCT_NAME = "ikea-infinite-scroll Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		9C579D7B2985828500F42477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ikea-infinite-scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll";
+				PRODUCT_NAME = "ikea-infinite-scroll";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C579D7C2985828500F42477 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/ikea-infinite-scroll.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ikea-infinite-scroll";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.submarines.ikea-infinite-scroll";
+				PRODUCT_NAME = "ikea-infinite-scroll";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C579D072985828400F42477 /* Build configuration list for PBXProject "ikea-infinite-scroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C579D6D2985828500F42477 /* Debug */,
+				9C579D6E2985828500F42477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C579D6F2985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C579D702985828500F42477 /* Debug */,
+				9C579D712985828500F42477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C579D732985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C579D742985828500F42477 /* Debug */,
+				9C579D752985828500F42477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C579D762985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C579D772985828500F42477 /* Debug */,
+				9C579D782985828500F42477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C579D7A2985828500F42477 /* Build configuration list for PBXNativeTarget "ikea-infinite-scroll (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C579D7B2985828500F42477 /* Debug */,
+				9C579D7C2985828500F42477 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C579D042985828400F42477 /* Project object */;
+}
