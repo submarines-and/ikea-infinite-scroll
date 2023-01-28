@@ -8,3 +8,6 @@ Adds infinite scrolling to ikea.com bu checking for the "Load more" button on sc
 3) Go to [Ikea.com](https://ikea.com)
 4) Click the app icon in the menu bar, you should be asked for permission to run
 5) Optional - Hide the menu bar icon - you will never need it anymore.
+
+
+<img src="./preview.gif" />
