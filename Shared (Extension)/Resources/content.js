@@ -25,24 +25,21 @@ function elementIsVisible(element) {
     return !(bounds.bottom < 0 || bounds.top - viewHeight >= 0);
 }
 
-/** Register main listener */
-function registerListener() {
-    document.addEventListener("scroll", debounce(() => {
+/** Main listener */
+function listener() {
+    
+    /** Change this selector if ikea.com changes the button class name */
+    const buttonSelector = ".catalog-bottom-container a";
+    const moreButton = document.querySelector(buttonSelector);
 
-        /** Change this selector if ikea.com changes the button class name */
-        const buttonSelector = ".catalog-bottom-container a";
-
-        const moreButton = document.querySelector(buttonSelector);
-
-        // click button if visible
-        if (elementIsVisible(moreButton)) {
-            moreButton.click();
-        }
-    }))
+    // click button if visible
+    if (elementIsVisible(moreButton)) {
+        moreButton.click();
+    }
 }
 
 
 
 
 // register after a small timeout to allow reasonable time for ikea to load
-setTimeout(()=> registerListener(), 100)
+setTimeout(()=> document.addEventListener("scroll", debounce(listener)), 100);
