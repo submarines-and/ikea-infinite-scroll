@@ -78,6 +78,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C1EBA622985981900688B55 /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
+		9C1EBA632985981900688B55 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9C579D0B2985828400F42477 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		9C579D0F2985828400F42477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C579D102985828500F42477 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -139,6 +141,8 @@
 		9C579D032985828400F42477 = {
 			isa = PBXGroup;
 			children = (
+				9C1EBA622985981900688B55 /* preview.gif */,
+				9C1EBA632985981900688B55 /* README.md */,
 				9C579D082985828400F42477 /* Shared (App) */,
 				9C579D112985828500F42477 /* Shared (Extension) */,
 				9C579D222985828500F42477 /* iOS (App) */,

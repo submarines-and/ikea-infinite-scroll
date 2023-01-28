@@ -1,5 +1,7 @@
 # IKEA Infinite scroll
-Adds infinite scrolling to ikea.com bu checking for the "Load more" button on scroll and clicking it once found. Very pleasant aid for burning money on cool things for you home!
+Adds infinite scrolling to ikea.com by checking for the "Load more" button on scroll and clicking it once found. 
+
+Very pleasant aid for burning money on cool things for you home!
 
 
 ## Installation
