@@ -1,39 +1,48 @@
+/** Throttle scrolling */
 function debounce(func, wait) {
-    wait = wait ?? 50;
-    
     let timeout;
-    
+
+    // default to 50ms
+    wait = wait ?? 50;
+
     return () => {
         if (timeout) {
             clearTimeout(timeout);
         }
+
         timeout = setTimeout(func, wait)
     }
 }
 
+/** Check if "load more" button is visible */
 function elementIsVisible(element) {
-  if (!element) {
-    return false;
-  }
+    if (!element) {
+        return false;
+    }
 
-  const bounds = element.getBoundingClientRect();
-  const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
-  return !(bounds.bottom < 0 || bounds.top - viewHeight >= 0);
+    const bounds = element.getBoundingClientRect();
+    const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+    return !(bounds.bottom < 0 || bounds.top - viewHeight >= 0);
+}
+
+/** Register main listener */
+function registerListener() {
+    document.addEventListener("scroll", debounce(() => {
+
+        /** Change this selector if ikea.com changes the button class name */
+        const buttonSelector = ".catalog-bottom-container a";
+
+        const moreButton = document.querySelector(buttonSelector);
+
+        // click button if visible
+        if (elementIsVisible(moreButton)) {
+            moreButton.click();
+        }
+    }))
 }
 
 
 
-document.addEventListener("scroll", debounce(() => {
-    const moreButton = document.querySelector(".catalog-bottom-container a");
-    
-    let isLoading = false;
-    if(elementIsVisible(moreButton) && !isLoading){
-        isLoading = true;
-        moreButton.click();
-        
-        // throttling
-        setTimeout(() => {
-            isLoading = false;
-        }, 100);
-    }
-}))
+
+// register after a small timeout to allow reasonable time for ikea to load
+setTimeout(()=> registerListener(), 100)
