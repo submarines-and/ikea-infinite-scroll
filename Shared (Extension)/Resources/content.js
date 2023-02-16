@@ -29,7 +29,7 @@ function elementIsVisible(element) {
 function listener() {
     
     /** Change this selector if ikea.com changes the button class name */
-    const buttonSelector = ".catalog-bottom-container a";
+    const buttonSelector = ".catalog-bottom-container a, .ofeed-btn";
     const moreButton = document.querySelector(buttonSelector);
 
     // click button if visible
